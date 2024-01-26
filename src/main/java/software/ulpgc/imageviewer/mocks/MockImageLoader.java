@@ -20,7 +20,7 @@ public class MockImageLoader implements ImageLoader {
 
             @Override
             public Image next() {
-                return imageAt((i+1) % ids.length)
+                return imageAt((i+1) % ids.length);
             }
 
             @Override
