@@ -36,7 +36,7 @@ public class ImagePresenter {
         this.display.paint(image.id(), 0);
     }
 
-    private void show(Image image){
+    public void show(Image image){
         this.image = image;
         repaint();
     }
